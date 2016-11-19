@@ -1,0 +1,25 @@
+{
+  "name": "conf2p",
+  "version": "0.0.1",
+  "description": "It can transform a specified configure file to cmd parameters.",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Miloas/conf2p.git"
+  },
+  "keywords": [
+    "conf"
+  ],
+  "author": "Miloas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Miloas/conf2p/issues"
+  },
+  "homepage": "https://github.com/Miloas/conf2p#readme",
+  "devDependencies": {
+    "ava": "^0.17.0"
+  }
+}
