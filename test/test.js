@@ -1,7 +1,9 @@
+/* eslint-env node, mocha */
 import test from 'ava'
 
-import f from '../index'
+import conf2p from '../index'
 
-test('foo', t => {
-    t.is(f(), 'ok')
+test('test',async t => {
+    t.is(await conf2p(__dirname + '/testInput.conf'),
+        ' --a=3 --b=true --lite-x=disable --dir=/123/456')
 })
