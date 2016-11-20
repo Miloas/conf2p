@@ -1,6 +1,6 @@
 {
   "name": "conf2p",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "It can transform a specified configure file to cmd parameters.",
   "main": "index.js",
   "scripts": {
